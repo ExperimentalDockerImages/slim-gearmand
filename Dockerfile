@@ -1,4 +1,4 @@
-FROM fzmemoria/base
+FROM decebal2dac/slim-dev-base
 
 RUN apt-get update && DEBIAN_FRONTENT=noninteractive \
     apt-get install -yqq gearman-job-server && \
